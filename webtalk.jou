@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov 25 10:15:21 2019
+# Process ID: 1400
+# Current directory: Z:/CS-373-1/Final_Project/Casino-Coders
+# Command line: wbtcv.exe -mode batch -source Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: Z:/CS-373-1/Final_Project/Casino-Coders/webtalk.log
+# Journal file: Z:/CS-373-1/Final_Project/Casino-Coders\webtalk.jou
+#-----------------------------------------------------------
+source Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.hw/webtalk/labtool_webtalk.tcl -notrace
