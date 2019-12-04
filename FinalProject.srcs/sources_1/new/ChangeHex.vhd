@@ -11,7 +11,8 @@ end ChangeHex;
 architecture ChangeHex of ChangeHex is
 
 component HexMod is
-    Port (  SW : in STD_LOGIC_VECTOR(15 downto 0);
+    Port (  CLK : in STD_LOGIC;
+            SW : in STD_LOGIC_VECTOR(15 downto 0);
             AN : out STD_LOGIC_VECTOR(7 downto 0);
             CT : out STD_LOGIC_VECTOR(6 downto 0));
 end component;
@@ -30,7 +31,7 @@ signal C0, C1, C2, C3: STD_LOGIC;
 
 begin
 
-H1 : HexMod port map(SW=>SW, AN=>AN, CT=>CT);
+H1 : HexMod port map(CLK=>C0, SW=>SW, AN=>AN, CT=>CT);
 Clock : ClockMod port map(CLK100MHZ=>CLK, C0=>C0, C1=>C1, C2=>C2, C3=>C3);
 
 

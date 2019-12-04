@@ -1,0 +1,153 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 21:03:16 2019
+# Process ID: 9988
+# Current directory: Z:/CS-373-1/Final_Project/Casino-Coders
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11408 Z:\CS-373-1\Final_Project\Casino-Coders\FinalProject.xpr
+# Log file: Z:/CS-373-1/Final_Project/Casino-Coders/vivado.log
+# Journal file: Z:/CS-373-1/Final_Project/Casino-Coders\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec  3 21:06:40 2019] Launched synth_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Dec  3 21:07:24 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec  3 21:08:49 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BE95A
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+close_hw
+launch_runs synth_1 -jobs 4
+[Tue Dec  3 21:13:11 2019] Launched synth_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec  3 21:13:51 2019] Launched synth_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec  3 21:14:19 2019] Launched synth_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Dec  3 21:15:01 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec  3 21:16:23 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BE95A
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec  3 21:25:26 2019] Launched synth_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Dec  3 21:27:17 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec  3 21:28:37 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BE95A
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec  3 21:31:01 2019] Launched synth_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/synth_1/runme.log
+close_hw
+launch_runs impl_1 -jobs 4
+[Tue Dec  3 21:31:46 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec  3 21:33:06 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BE95A
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+reset_run synth_1
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: boost::filesystem::status: Access is denied: "Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex_utilization_placed.pb" ui.frmwork.CommandFailedException: boost::filesystem::status: Access is denied: "Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex_utilization_placed.pb"
+	at ui.project.projecti.HAPRRunMgr_updateAllRuns(Native Method)
+	at ui.data.experiment.y.aKw(SourceFile:190)
+	at ui.data.experiment.A.construct(SourceFile:326)
+	at ui.frmwork.y.run(SourceFile:205)
+	at java.base/java.lang.Thread.run(Unknown Source)
+ (See Z:/CS-373-1/Final_Project/Casino-Coders/vivado_pid9988.debug)
+ERROR: [Common 17-39] 'reset_runs' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  3 21:40:22 2019...

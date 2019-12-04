@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 21:27:25 2019
+# Process ID: 10880
+# Current directory: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1
+# Command line: vivado.exe -log ChangeHex.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ChangeHex.tcl -notrace
+# Log file: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1/ChangeHex.vdi
+# Journal file: Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ChangeHex.tcl -notrace

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 19:53:21 2019
+# Process ID: 7564
+# Current directory: Z:/CS-373-1/Final_Project/Casino-Coders
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7576 Z:\CS-373-1\Final_Project\Casino-Coders\FinalProject.xpr
+# Log file: Z:/CS-373-1/Final_Project/Casino-Coders/vivado.log
+# Journal file: Z:/CS-373-1/Final_Project/Casino-Coders\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Z:/CS-373-1/Final_Project/Casino-Coders/FinalProject.xpr
+update_compile_order -fileset sources_1
